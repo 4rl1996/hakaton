@@ -8,7 +8,7 @@ CREATE TABLE task
     id integer NOT NULL PRIMARY KEY
 );
 
-CREATE TABLE user
+CREATE TABLE service_user
 (
     id integer NOT NULL PRIMARY KEY
 );
