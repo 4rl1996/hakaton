@@ -1,9 +1,14 @@
 server:
   port: 8080
 
-spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    username: hackaton
-    password: ${DB_PASS}
-    url: jdbc:postgresql://localhost:5432/hackaton
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    username: hackaton
+#    password: ${DB_PASS}
+#    url: jdbc:postgresql://localhost:5432/hackaton
+
+notification:
+  botUrl: https://api.telegram.org/bot${notification.botToken}/sendMessage
+  botToken: 6259651648:AAHxT-1sYfWIcRQD-Bo6moYgu9gJZ7AJIYo
+  chatId: -718317558
